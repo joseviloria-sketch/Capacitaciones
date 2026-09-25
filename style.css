@@ -1,0 +1,29 @@
+#title {
+    display: flex;
+    flex-flow: column wrap;
+    color: aliceblue;
+    background-color: #0085CA; 
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login{
+    justify-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+form div{
+    padding: 7px;
+    margin: 0 auto;
+    text-align: center;
+}
+form div label{
+    display: block;
+    padding: 5px;
+}
+
+/*azul uneat #0085CA*/
