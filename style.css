@@ -26,4 +26,9 @@ form div label{
     padding: 5px;
 }
 
+form div input{
+    border-radius: 20px;
+    border-style: solid;
+}
+
 /*azul uneat #0085CA*/
