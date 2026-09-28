@@ -21,6 +21,7 @@ form div{
     margin: 0 auto;
     text-align: center;
 }
+
 form div label{
     display: block;
     padding: 5px;
@@ -29,6 +30,24 @@ form div label{
 form div input{
     border-radius: 20px;
     border-style: solid;
+}
+
+
+@media (max-width:400px){
+    
+    form div{
+        padding: 0;
+        margin: 5px 0;
+    }
+
+    #title{
+        padding: 30px 20px;
+        display: block;
+    }
+
+    .login{
+        display: block;
+    }
 }
 
 /*azul uneat #0085CA*/
