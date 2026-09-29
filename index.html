@@ -7,15 +7,14 @@
     <body>
         <div class="background">
             <h1 id="header">Log in</h1>
-            <form class="login" action="/formulario" method="post">      
+            <form class="login" onsubmit="handleSubmit">      
                 <label for="usuario">Ingrese su usuario aquí:</label>
-                <input id="usuario" name="usuario" placeholder="Usuario" type="text">
+                <input id="usuario" name="usuario" placeholder="Usuario" type="text" required>
                 <label for="password">Ingrese su contraseña aquí:</label>
-                <input id="password" name ="password" placeholder="Contraseña" type="password">
-                <button type="submit" class="submit-button"> Enviar </button>
+                <input id="password" name ="password" placeholder="Contraseña" type="password" required>
+                <button type="submit" id="submit-button" class="submit-button"> Enviar </button>
             </form>
             <script src="app.js"> </script>
-            <script src="app2.js"> </script>
         </div>
     </body>
 </html>

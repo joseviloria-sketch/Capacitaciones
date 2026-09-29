@@ -11,7 +11,7 @@
     font-family: Arial, Helvetica, sans-serif;
     min-height: 400px;
     margin: 10% 30%;
-    padding: 7px;
+    padding: 15px;
     box-sizing: border-box;
     background: transparent;
     border: 2px solid black;
@@ -24,14 +24,16 @@
 }
 
 label{
+    color: aliceblue;
     display: block;
     width: 80%;
     padding: 5px;
-    margin: 15% 0% 5%;
+    margin: 10% 0%;
     text-align: center;
 }
 
 input{
+    margin-bottom: 10%;
     width: 80%;
     box-sizing: border-box;
     padding: 5px;
@@ -46,20 +48,34 @@ input{
     padding: 10px 30px;
     border-radius: 20px;
     cursor: pointer;
-    box-shadow: 0px 4px 15px 0px;
+    box-shadow: 0px 0px 8px 0px;
     color: aliceblue;
     background-color: rgb(12, 1, 22);
 }
 
 .background {
-    height: 100vh;
+    height: 100dvh;
     background-image: url('background_loop.jpg');
     background-size: 200px;
 }
 
-/*@media all and (max-width:980px){
+@media (min-width:1600px){
+    
+    .login{
+        width: 60%;
+        height: 60%;
+        margin: 5% auto;
+    }
 
-}*/
+    label{
+        width: 40%;
+        margin: 5%;
+    }
+
+    input{
+        margin-bottom: 2%;
+    }
+}
 
 
 @media (min-width:5px) and (max-width:600px){
