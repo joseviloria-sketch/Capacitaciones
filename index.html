@@ -7,12 +7,15 @@
     <body>
         <div class="background">
             <h1 id="header">Log in</h1>
-            <form class="login" onsubmit="handleSubmit">      
+            <form class="wrapper" id="login_form">      
                 <label for="usuario">Ingrese su usuario aquí:</label>
-                <input id="usuario" name="usuario" placeholder="Usuario" type="text" required>
+                <input id="user" name="usuario" placeholder="Usuario" type="text" required>
                 <label for="password">Ingrese su contraseña aquí:</label>
                 <input id="password" name ="password" placeholder="Contraseña" type="password" required>
                 <button type="submit" id="submit-button" class="submit-button"> Enviar </button>
+                <p>¿No tienes cuenta?
+                    <a href="register.html"> Regístrate</a>
+                </p>
             </form>
             <script src="app.js"> </script>
         </div>

@@ -7,7 +7,7 @@
     box-shadow: 0px 5px 20px 30px rgb(12, 1, 22);
 }
 
-.login{
+.wrapper{
     font-family: Arial, Helvetica, sans-serif;
     min-height: 400px;
     margin: 10% 30%;
@@ -43,8 +43,8 @@ input{
 }
 
 .submit-button{
-    margin: auto 0 0;
-    margin-top: max(auto, 10px);
+    margin: 3% 0 0;
+    margin-top: max(auto, 30px);
     padding: 10px 30px;
     border-radius: 20px;
     cursor: pointer;
@@ -59,9 +59,16 @@ input{
     background-size: 200px;
 }
 
+p {
+    color: aliceblue;
+}
+a {
+    color: aliceblue;
+}
+
 @media (min-width:1600px){
     
-    .login{
+    .wrapper{
         width: 60%;
         height: 60%;
         margin: 5% auto;
@@ -84,7 +91,7 @@ input{
         padding: 30px 20px;
     }
     
-    .login{
+    .wrapper{
         width: 80%;
         min-height: 400px;
         margin: 10% auto;
